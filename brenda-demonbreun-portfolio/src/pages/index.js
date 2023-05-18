@@ -7,9 +7,9 @@ import CardList from '@/components/Cards/cardList'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const data = () =>{
+  const data = () => {
     const URL = 'http://localhost:3000/api/books'
-    fetch(URL,)
+    fetch(URL)
     .then(res => res.json())
     .then(console.log(res => res.json()))
   }
