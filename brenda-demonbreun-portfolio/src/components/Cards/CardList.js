@@ -1,15 +1,21 @@
 import React from "react";
-import Card from "./card";
+import Card from "./Card";
+import styles from "./CardList.module.css"
 
-const CardList = (data) => {
-    const cards = data.map( card => 
-        <Card
-            cardData = {card}
-        />);
-    }
+const CardList = ({ cardData }) => {
     return(
-        <div>
-           {cards} 
+        <div className={styles.container}>
+            {cardData.map((card) => {
+                return (
+                    <Card
+                        key={card.id}
+                        BookTitle={card.BookTitle}
+                        AmazonAffiLink={card.AmazonAffiLink}
+                        BookImage={card.BookImage}
+                    />
+                );
+            })}
         </div>
-    )
-export default CardList;ç
+    );
+}
+export default CardList;
