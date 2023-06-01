@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Card.module.css"
 import Image from "next/image";
 
-const Card = ({ key, BookTitle, AmazonAffiLink, BookImage}) => {
+const Card = ({ BookTitle, AmazonAffiLink, BookImage}) => {
     return(
         <div className={styles.card}>
             <Image

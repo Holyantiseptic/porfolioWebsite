@@ -1,0 +1,6 @@
+Colors choices:
+1:#D90429
+2:#EDF2F4
+3:#2B2D42
+4:#EF233C
+5:#8D99AE
