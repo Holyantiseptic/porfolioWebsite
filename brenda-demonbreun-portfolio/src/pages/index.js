@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
 import CardList from '../components/Cards/CardList'
-// import { useState, setState } from 'react' 
 
 const inter = Inter({ subsets: ['latin'] })
 
