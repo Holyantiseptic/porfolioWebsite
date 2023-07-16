@@ -18,15 +18,6 @@ export default function Contact() {
             </Head>
             <main className={`${styles.main} ${inter.className}`}>
                 <NavBar />
-                <div className={styles.description}>
-                    <p>
-                        Contact
-                    </p>
-                    <p>
-                        Brenda Demonbreun
-                    </p>
-                </div>
-                {/* form */}
                 <div className={styles.center}>
                     <Image
                         className={styles.logo}

@@ -18,15 +18,6 @@ export default function About() {
             </Head>
             <main className={`${styles.main} ${inter.className}`}>
                 <NavBar />
-                <div className={styles.description}>
-                    <p>
-                        About
-                    </p>
-                    <p>
-                        Brenda Demonbreun
-                    </p>
-                </div>
-                {/* form */}
                 <div className={styles.center}>
                     <Image
                         className={styles.logo}
