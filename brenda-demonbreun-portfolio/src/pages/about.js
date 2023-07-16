@@ -30,7 +30,7 @@ export default function About() {
                 <div className={styles.center}>
                     <Image
                         className={styles.logo}
-                        src="/BrendaDemonbreunHero.jpeg "
+                        src="/BrendaDemonbreunHero.jpeg"
                         alt="Logo"
                         width={1330}
                         height={720}
