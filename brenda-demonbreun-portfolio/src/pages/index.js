@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
 import CardList from '../components/Cards/CardList'
+import NavBar from '../components/NavBar/navBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -37,12 +38,12 @@ export default function Home() {
   const data = () => {
     const URL = 'http://localhost:3000/api/books'
     fetch(URL)
-    .then(res => res.json())
-    .then(console.log(res => res.json()))
+      .then(res => res.json())
+      .then(console.log(res => res.json()))
   }
 
   return (
-     <>
+    <>
       <Head>
         <title>Brenda Demonbreun</title>
         <meta name="description" content="Portfolio Page for the Author Brenda" />
@@ -50,6 +51,7 @@ export default function Home() {
         <link rel="icon" href="/BrendaDemonbreunFavicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+        <NavBar />
         <div className={styles.description}>
           <p>
             Brenda Demonbreun
@@ -71,9 +73,9 @@ export default function Home() {
         </div>
 
         <CardList
-          cardData = {cardInfo}
+          cardData={cardInfo}
         />
-        
+
       </main>
     </>
   )
