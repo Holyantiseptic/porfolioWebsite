@@ -1,13 +1,15 @@
 import React from "react";
-import styles from "./Card.module.css"
+import styles from "./TestCard.module.css";
 
-const Card = ({ BookTitle, ReviewText }) => {
-    return(
+const TestCard = ({ BookTitle, ReviewText }) => {
+    return (
         <div className={styles.card}>
-            <p>{BookTitle}</p>
-            <p>{ReviewText}</p>
+            <p className={styles.title}>{BookTitle}</p>
+            <div className={styles.card}>
+                <p className={styles.reviewBody}>{ReviewText}</p>
+            </div>
         </div>
     );
 }
 
-export default Card;
+export default TestCard;
