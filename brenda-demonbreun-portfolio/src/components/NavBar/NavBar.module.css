@@ -2,16 +2,32 @@
     background-color: #333;
     color: #fff;
     padding: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* max-width: 1000px; */
 }
 
 .ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    gap: 5px;
+    min-width: 500px;
+    max-width: 1000px;
 }
 
 .li {
-    margin: 0 10px;
+    margin: 50px, 50px;
+    /* white boarder around the list item */
+    border: 1px solid #fff;
+    /* round the edges of the items */
+    border-radius: 5px;
+    /* padding around the list items */
+    padding: 5px;
+    /* black text list items */
+    /* color: #000; */
 }
 
 .a {

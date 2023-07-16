@@ -52,15 +52,6 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <NavBar />
-        <div className={styles.description}>
-          <p>
-            Brenda Demonbreun
-          </p>
-          <p>
-            Brenda Demonbreun
-          </p>
-        </div>
-
         <div className={styles.center}>
           <Image
             className={styles.logo}
@@ -71,7 +62,6 @@ export default function Home() {
             priority
           />
         </div>
-
         <CardList
           cardData={cardInfo}
         />

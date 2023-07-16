@@ -20,7 +20,7 @@ export default function About() {
                 <NavBar />
                 <div className={styles.description}>
                     <p>
-                        Contact
+                        About
                     </p>
                     <p>
                         Brenda Demonbreun
