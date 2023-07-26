@@ -3,34 +3,34 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
 import CardList from '../components/Cards/CardList'
-import NavBar from '../components/NavBar/navBar'
+import NavBar from '../components/NavBar/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 const cardInfo = [
   {
     id: 1,
-    BookTitle: 'Book1',
+    BookTitle: 'The Soul Of A Soldier',
     AmazonAffiLink: 'www.google.com',
-    BookImage: '/static/Holy-Antiseptic.jpeg',
+    BookImage: '/TheSoulOfASoldier.PNG',
   },
   {
     id: 2,
-    BookTitle: 'Book2',
+    BookTitle: 'Drumbeat Hear My Cry',
     AmazonAffiLink: 'www.google.com',
-    BookImage: '/static/Holy-Antiseptic.jpeg',
+    BookImage: '/DrumbeatHearMyCry.JPG',
   },
   {
     id: 3,
-    BookTitle: 'Book3',
+    BookTitle: 'Present Day Psalms',
     AmazonAffiLink: 'www.google.com',
-    BookImage: '/static/Holy-Antiseptic.jpeg',
+    BookImage: '/PresentDayPsalms.PNG',
   },
   {
     id: 4,
-    BookTitle: 'Book4',
+    BookTitle: 'Coming Soon',
     AmazonAffiLink: 'www.google.com',
-    BookImage: '/static/Holy-Antiseptic.jpeg',
+    BookImage: '/ComingSoon.jpg',
   }
 ];
 
