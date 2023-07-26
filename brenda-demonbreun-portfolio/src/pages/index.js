@@ -13,24 +13,32 @@ const cardInfo = [
     BookTitle: 'The Soul Of A Soldier',
     AmazonAffiLink: 'www.google.com',
     BookImage: '/TheSoulOfASoldier.PNG',
+    height: 3300,
+    width: 2550,
   },
   {
     id: 2,
     BookTitle: 'Drumbeat Hear My Cry',
     AmazonAffiLink: 'www.google.com',
     BookImage: '/DrumbeatHearMyCry.JPG',
+    height: 3300,
+    width: 2550,
   },
   {
     id: 3,
     BookTitle: 'Present Day Psalms',
     AmazonAffiLink: 'www.google.com',
     BookImage: '/PresentDayPsalms.PNG',
+    height: 3300,
+    width: 2550,
   },
   {
     id: 4,
     BookTitle: 'Coming Soon',
     AmazonAffiLink: 'www.google.com',
     BookImage: '/ComingSoon.jpg',
+    height: 4082,
+    width: 6123,
   }
 ];
 

@@ -12,6 +12,8 @@ const CardList = ({ cardData }) => {
                         BookTitle={card.BookTitle}
                         AmazonAffiLink={card.AmazonAffiLink}
                         BookImage={card.BookImage}
+                        height={card.height}
+                        width ={card.width}
                     />
                 );
             })}
