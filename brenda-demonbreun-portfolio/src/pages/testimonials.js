@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
 import TestList from '../components/Testimonials/TestList'
-import NavBar from '../components/NavBar/navBar'
+import NavBar from '../components/NavBar/NavBar'
 
 
 const inter = Inter({ subsets: ['latin'] })
